@@ -6,11 +6,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/example/starwars"
-	"github.com/99designs/gqlgen/example/starwars/generated"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"git.sr.ht/~sircmpwn/gqlgen/example/starwars"
+	"git.sr.ht/~sircmpwn/gqlgen/example/starwars/generated"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/playground"
 )
 
 func main() {

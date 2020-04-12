@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/99designs/gqlgen/cmd"
+	"git.sr.ht/~sircmpwn/gqlgen/cmd"
 )
 
 func main() {

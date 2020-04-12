@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
+	"git.sr.ht/~sircmpwn/gqlgen/codegen/config"
+	"git.sr.ht/~sircmpwn/gqlgen/codegen/templates"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/ast"
 )

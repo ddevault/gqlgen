@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql/handler/extension"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/extension"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/99designs/gqlgen/integration"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/playground"
+	"git.sr.ht/~sircmpwn/gqlgen/integration"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )

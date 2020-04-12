@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/99designs/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
 	"github.com/urfave/cli/v2"
 )
 

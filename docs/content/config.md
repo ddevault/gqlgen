@@ -58,15 +58,15 @@ autobind:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.ID
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int64
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int32
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int64
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int32
 
 ```
 
@@ -93,7 +93,7 @@ directive @goField(forceResolver: Boolean, name: String) on INPUT_FIELD_DEFINITI
 > Here be dragons
 >
 > gqlgen doesnt currently support user-configurable directives for SCALAR, ENUM, INTERFACE or UNION. This only works
-> for internal directives. You can track the progress [here](https://github.com/99designs/gqlgen/issues/760)
+> for internal directives. You can track the progress [here](https://git.sr.ht/~sircmpwn/gqlgen/issues/760)
 
 Now you can use these directives when defining types in your schema:
 

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/testserver"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/assert"
 )
 

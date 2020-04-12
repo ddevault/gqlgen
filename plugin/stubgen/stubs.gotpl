@@ -9,8 +9,8 @@
 
 {{ reserveImport "github.com/vektah/gqlparser/v2" }}
 {{ reserveImport "github.com/vektah/gqlparser/v2/ast" }}
-{{ reserveImport "github.com/99designs/gqlgen/graphql" }}
-{{ reserveImport "github.com/99designs/gqlgen/graphql/introspection" }}
+{{ reserveImport "git.sr.ht/~sircmpwn/gqlgen/graphql" }}
+{{ reserveImport "git.sr.ht/~sircmpwn/gqlgen/graphql/introspection" }}
 
 {{ $root := . }}
 

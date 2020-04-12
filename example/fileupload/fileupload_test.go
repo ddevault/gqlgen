@@ -13,10 +13,10 @@ import (
 	"net/textproto"
 	"testing"
 
-	"github.com/99designs/gqlgen/example/fileupload/model"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"git.sr.ht/~sircmpwn/gqlgen/example/fileupload/model"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 )
 

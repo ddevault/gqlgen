@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"git.sr.ht/~sircmpwn/gqlgen/client"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler"
 	"github.com/stretchr/testify/require"
 )
 

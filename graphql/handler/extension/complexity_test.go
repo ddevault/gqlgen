@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/extension"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/testserver"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 )
 

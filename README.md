@@ -1,8 +1,8 @@
-# gqlgen [![Continuous Integration](https://github.com/99designs/gqlgen/workflows/Continuous%20Integration/badge.svg)](https://github.com/99designs/gqlgen/actions) [![Read the Docs](https://badgen.net/badge/docs/available/green)](http://gqlgen.com/)
+# gqlgen [![Continuous Integration](https://git.sr.ht/~sircmpwn/gqlgen/workflows/Continuous%20Integration/badge.svg)](https://git.sr.ht/~sircmpwn/gqlgen/actions) [![Read the Docs](https://badgen.net/badge/docs/available/green)](http://gqlgen.com/)
 
 ## What is gqlgen?
 
-[gqlgen](https://github.com/99designs/gqlgen) is a Go library for building GraphQL servers without any fuss. gqlgen is:
+[gqlgen](https://git.sr.ht/~sircmpwn/gqlgen) is a Go library for building GraphQL servers without any fuss. gqlgen is:
 
 - **Schema first** — Define your API using the GraphQL [Schema Definition Language](http://graphql.org/learn/schema/).
 - **Type safe** — You should never see `map[string]interface{}` here.
@@ -14,15 +14,15 @@
 
 First work your way through the [Getting Started](https://gqlgen.com/getting-started/) tutorial.
 
-If you can't find what your looking for, look at our [examples](https://github.com/99designs/gqlgen/tree/master/example) for example usage of gqlgen.
+If you can't find what your looking for, look at our [examples](https://git.sr.ht/~sircmpwn/gqlgen/tree/master/example) for example usage of gqlgen.
 
 ## Reporting Issues
 
-If you think you've found a bug, or something isn't behaving the way you think it should, please raise an [issue](https://github.com/99designs/gqlgen/issues) on GitHub.
+If you think you've found a bug, or something isn't behaving the way you think it should, please raise an [issue](https://git.sr.ht/~sircmpwn/gqlgen/issues) on GitHub.
 
 ## Contributing
 
-Read our [Contribution Guidelines](https://github.com/99designs/gqlgen/blob/master/CONTRIBUTING.md) for information on how you can help out gqlgen.
+Read our [Contribution Guidelines](https://git.sr.ht/~sircmpwn/gqlgen/blob/master/CONTRIBUTING.md) for information on how you can help out gqlgen.
 
 ## Frequently asked questions
 
@@ -90,8 +90,8 @@ You can by remapping it in config:
 models:
   ID: # The GraphQL type ID is backed by
     model:
-      - github.com/99designs/gqlgen/graphql.IntID # An go integer
-      - github.com/99designs/gqlgen/graphql.ID # or a go string
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.IntID # An go integer
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.ID # or a go string
 ```
 
 This means gqlgen will be able to automatically bind to strings or ints for models you have written yourself, but the

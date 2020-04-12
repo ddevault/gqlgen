@@ -111,7 +111,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/99designs/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
 )
 
 
@@ -147,4 +147,4 @@ models:
     model: github.com/me/mypkg.MyCustomBooleanScalar
 ```
 
-See the [example/scalars](https://github.com/99designs/gqlgen/tree/master/example/scalars) package for more examples.
+See the [example/scalars](https://git.sr.ht/~sircmpwn/gqlgen/tree/master/example/scalars) package for more examples.

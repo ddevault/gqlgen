@@ -1,5 +1,5 @@
 models:
   Order:
-    model: github.com/99designs/gqlgen/example/dataloader.Order
+    model: git.sr.ht/~sircmpwn/gqlgen/example/dataloader.Order
   Customer:
-    model: github.com/99designs/gqlgen/example/dataloader.Customer
+    model: git.sr.ht/~sircmpwn/gqlgen/example/dataloader.Customer

@@ -17,9 +17,9 @@ package main
 import (
     "net/http"
 
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-    "github.com/99designs/gqlgen/example/starwars"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler/transport"
+    "git.sr.ht/~sircmpwn/gqlgen/example/starwars"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql/handler"
 	"github.com/go-chi/chi"
 	"github.com/rs/cors"
 )

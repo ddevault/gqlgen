@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
+	"git.sr.ht/~sircmpwn/gqlgen/graphql"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

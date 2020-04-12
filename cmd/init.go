@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/internal/code"
-	"github.com/99designs/gqlgen/plugin/servergen"
+	"git.sr.ht/~sircmpwn/gqlgen/api"
+	"git.sr.ht/~sircmpwn/gqlgen/codegen/config"
+	"git.sr.ht/~sircmpwn/gqlgen/internal/code"
+	"git.sr.ht/~sircmpwn/gqlgen/plugin/servergen"
 	"github.com/urfave/cli/v2"
 )
 
@@ -64,15 +64,15 @@ autobind:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.ID
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int64
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int32
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int64
+      - git.sr.ht/~sircmpwn/gqlgen/graphql.Int32
 `))
 
 var schemaDefault = `# GraphQL schema example
